@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    [](){cout<<"Hello World"<<endl;}();
+    [](){cout<<"Hello Welcome to C++11 Lambda"<<endl;}();
         
     int xx = 100;
     //[]()->int{xx++;return xx;}();//error: ‘xx’ is not captured
