@@ -2,11 +2,11 @@
 using namespace std;
 void pReference(int && value)
 {
-    cout<<__PRETTY_FUNCTION__<<"**"<<value<<endl;
+    cout<<__PRETTY_FUNCTION__<<"  **  "<<value<<endl;
 }
 void pReference(int & value)
 {
-    cout<<__PRETTY_FUNCTION__<<"**"<<value<<endl;
+    cout<<__PRETTY_FUNCTION__<<"   **  "<<value<<endl;
 }
 
 int getValue()
@@ -21,3 +21,6 @@ int main()
     pReference(getValue());
     return 0;
 }
+// Output
+// void pReference(int&)   **  10                                                                                                                                                                                                                 
+// void pReference(int&&)  **  5 
