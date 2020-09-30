@@ -2,15 +2,15 @@
 using namespace std;
 void fun_Rf(int && rf)
 {
-    cout<<__func__<<"**"<<rf<<endl;
+    cout<<__func__<<"    **   "<<rf<<endl;
 }
-void fun_CRf(int && rf)
+void fun_CRf(const int && rf)
 {
-    cout<<__func__<<"**"<<rf<<endl;
+    cout<<__func__<<"   **   "<<rf<<endl;
 }
 void fun_CLf(const int & rf)
 {
-    cout<<__func__<<"**"<<rf<<endl;
+    cout<<__func__<<"   **   "<<rf<<endl;
 }
 int main()
 {
